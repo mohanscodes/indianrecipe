@@ -1,0 +1,206 @@
+.food__cards{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.food__cards_title{
+    margin-top: 8px;
+}
+.foodcard__main{
+    width: 800px;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color:  rgb(204, 249, 188);
+    border-radius: 20px;
+}
+
+.Food_title{
+    color: #709d3c;
+    margin: 0;
+}
+
+.Recipi_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.Recipi_diets{
+    display: flex;
+}
+
+.food__cards img{
+    max-width: 400px;
+    margin-left: 10px;
+}
+
+.food_types, .readyInMinutes{
+    color: #824ac3;
+}
+
+.food_types{
+    font-size: 20px;
+}
+
+.Food_title{
+    margin-top: -5px;
+}
+
+.readyInMinutes{
+    margin-bottom: 5px;
+}
+
+.App{
+    display: grid;
+    grid-template-columns: 75% 20%;
+    justify-content: center;
+    align-items: start;
+}
+
+.collum_two{
+    margin: 15px;
+}
+.auther_card{
+    background-color: #824ac3;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.ViewmoreBtn{
+    text-decoration: none;
+    background-color: #507921;
+    color: rgb(255, 255, 255);
+    padding: 3px 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.auther_card img{
+    border-radius: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.auther_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.auther_cards img{
+    width: 200px;
+}
+
+@media only screen and (max-width:600px) {
+
+    .App{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     
+    .food__cards{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+       
+    }
+    
+    .foodcard__main{
+        width: 400px;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 30px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        overflow: hidden;
+
+        padding-top: 10px;
+        padding-bottom: 15px;
+
+        background-color:  rgb(204, 249, 188);
+        margin-bottom: 20px;
+    
+    }
+       
+    .food__cards img{
+        max-width: 350px;
+      }
+
+    .food__cards_title{
+        text-align: center;
+    }
+    
+    .Food_title{
+        color: #709d3c;
+    }
+    
+    .Recipi_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 350px;
+    }
+    
+    .Recipi_diets{
+        display: flex;
+    }
+ 
+    
+    .food_types, .readyInMinutes{
+        color: #824ac3;
+    }
+   
+    .auther_card{
+        background-color: #824ac3;
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    
+    }
+    
+    .auther_card img{
+        border-radius: 100px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .auther_cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+   
+}

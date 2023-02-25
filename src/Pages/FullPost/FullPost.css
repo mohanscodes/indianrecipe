@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.FullRecipes_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #dcffcf;
+}
+
+.FullRecipes_details img {
+    border-radius: 10px;
+    width: auto;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+
+.FoodName{
+    text-align: center;
+    background-color: #3f742b;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+
+}
+
+
+.vegetarian{
+    text-align: center;
+    margin: 10px 10px;
+}
+
+
+.dishTypes{
+    text-align: center;
+    width: 70%;
+}
+
+.diets{
+    text-align: center;
+    width: 70%;
+}
+
+.summary{
+    max-width: 600px;
+}
+
+
+.FullRecipes_details .backtoHome {
+    background-color: rgb(104, 146, 55);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 40px 0px;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+     rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+
+.FullRecipes_details .backtoHome:hover {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 40px 0px;
+    border-radius: 10px;
+    outline: none;
+    scale: 1.2;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .summary{
+        max-width: 350px;
+    }
+    .FullRecipes_details img {
+        border-radius: 10px;
+        width: auto;
+        height: 220px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border: 2px solid white;
+    }
+}

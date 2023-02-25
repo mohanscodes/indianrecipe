@@ -1,0 +1,125 @@
+.AppHome{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: 85%;
+    width: 100%;
+}
+
+.food__cards_title{
+    margin-top: 8px;
+}
+
+
+.food__cards{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodcard__main{
+    width: 290px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    background-color:  rgb(204, 249, 188);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 25px 50px -10px 0px;
+}
+
+.Food_title{
+    color: #709d3c;
+    margin: 10px 0px;
+    width: 280px;
+    text-align: center;
+}
+
+.food__cards img{
+    max-width: 270px;
+    border-radius: 20px;
+}
+
+
+.ViewmoreBtn{
+    text-decoration: none;
+    background-color: #507921;
+    color: rgb(255, 255, 255);
+    padding:  3px 8px 7px 8px  ;
+    margin: 10px 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.auther_card img{
+    border-radius: 100px;
+    width: 100%;
+    height: auto;
+}
+
+
+@media only screen and (max-width:600px) {
+
+    .AppHome{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food__cards{
+        display: grid;
+        grid-template-columns: 49% 49%;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .foodcard__main{
+        width: 170px;
+        height: 220px;
+        margin: 10px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 10px;
+        background-color:  rgb(204, 249, 188);
+        border-radius: 20px;
+    }
+    
+    .Food_title{
+        color: #709d3c;
+        margin: 10px 0px 0px 0px;
+        width: 150px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .food__cards img{
+        max-width: 155px;
+        border-radius: 20px;
+        margin-top: -7px;
+    }
+
+    
+    .ViewmoreBtn{
+        text-decoration: none;
+        background-color: #507921;
+        color: rgb(255, 255, 255);
+        padding:  3px 8px 7px 8px  ;
+        margin: 5px 0px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+}

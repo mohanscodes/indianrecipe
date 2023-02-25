@@ -1,0 +1,17 @@
+.homecardleft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.homecardleft img{
+    width: 300px;
+}
+
+@media only screen and (max-width:600px) {
+    .homecardleft img{
+        width: 280px;
+    }
+    
+}

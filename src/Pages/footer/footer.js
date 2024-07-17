@@ -35,8 +35,7 @@ const footer = () => {
     </div>
 
     <div className='footer_row_two'>
-      <p>COPYRIGHT © 2023–2024 YUMMY O YUMMY. ALL RIGHTS RESERVED.
-        CRAFTED WITH ❤️ BY ENTERWEBSOLUTION</p>
+      <p>COPYRIGHT © 2023–2024 YUMMY HO YUMMY</p>
     </div>
 
     </div>

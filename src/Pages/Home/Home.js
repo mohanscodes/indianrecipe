@@ -15,9 +15,8 @@ const Home = () => {
   const { setPostids,pageName } = useContext(GlobalContext);
   const [currentPage, setcurrentPage] = useState(1);
 
-  const Myapikeys = '9569d702f95243bd83c6e1bac1ea875c';
-  // const Myapikeys = '10d18c1f9a2e426f822cc191e573fee5';
-  // const Myapikeys = '55565963579a4edf8ff69aa4a34c93bb';
+ const Myapikeys = process.env.REACT_APP_API_URL;
+
   // home
   // nonVegFoodlist
   // dessertslist

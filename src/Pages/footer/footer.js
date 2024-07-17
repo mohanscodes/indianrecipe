@@ -35,7 +35,7 @@ const footer = () => {
     </div>
 
     <div className='footer_row_two'>
-      <p>COPYRIGHT © 2023–2024 YUMMY HO YUMMY</p>
+      <p>COPYRIGHT © 2024–2025 YUMMY HO YUMMY</p>
     </div>
 
     </div>

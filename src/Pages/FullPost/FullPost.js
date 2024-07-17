@@ -10,6 +10,7 @@ const FullPost = () => {
   const { postids,Localpostid } = useContext(GlobalContext);
   const [preload, SetPreLoad] = useState(true);
   const [fullpostDetailes, SetFullPostDetails] = useState([]);
+ const Myapikeys = process.env.REACT_APP_API_URL;
 
   const GetpostFullDetailes = async () => {
 
@@ -28,7 +29,7 @@ const FullPost = () => {
       else {
         if (postids) {
           SetPreLoad(true);
-          const FullPostResponce = await axios.get(`https://api.spoonacular.com/recipes/${postids}/information?apiKey=55565963579a4edf8ff69aa4a34c93bb`);
+          const FullPostResponce = await axios.get(`https://api.spoonacular.com/recipes/${postids}/information?apiKey=${Myapikeys}`);
           localStorage.setItem(FullPostResponce.data.id, JSON.stringify(FullPostResponce.data));
           SetFullPostDetails(FullPostResponce.data);
           SetPreLoad(false);
